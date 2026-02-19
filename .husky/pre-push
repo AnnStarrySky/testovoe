@@ -1,4 +1,5 @@
-# .husky/pre-push
+#!/usr/bin/env sh
+. "$(dirname "$0")/pre-push"
 
 npx eslint .
 
