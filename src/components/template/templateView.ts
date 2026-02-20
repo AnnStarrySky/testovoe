@@ -1,7 +1,7 @@
 import { ComponentView } from "../../models/abstractions";
 import { TemplateComponent } from "./templateComponent";
 import { Builder } from "../../utils/builder";
-import styles from "./body.module.scss";
+import styles from "./template.module.scss";
 
 export class TemplateView extends ComponentView {
   protected _component: TemplateComponent;
