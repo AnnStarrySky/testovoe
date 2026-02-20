@@ -1,0 +1,6 @@
+@use "colors" as *;
+@use "variables" as *;
+
+.btn {
+  background-color: $color-btn-example;
+}

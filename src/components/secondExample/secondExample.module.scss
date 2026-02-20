@@ -1,0 +1,10 @@
+@use "../../colors" as *;
+@use "../../variables" as *;
+
+.wrapper {
+  display: flex;
+}
+
+.btnSecondExample {
+  background-color: $color-btn-second-example;
+}
